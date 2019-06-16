@@ -1,0 +1,32 @@
+<div class="container">
+
+  <table class="table table-hover table-striped">
+
+    <thead class="text-center">My Contacts
+    <tr>
+
+      <td>
+      </td>
+      <td>
+      </td>
+
+    </tr>
+    <tr>
+      <th>Full Name</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    </thead>
+    <tbody *ngFor="let contact of contacts">
+      <tr>
+        <td>{{contact.fullName}}</td>
+        <td>{{contact.email}}</td>
+      </tr>
+    </tbody>
+
+  </table>
+
+</div>
